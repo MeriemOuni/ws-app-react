@@ -1,38 +1,55 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nature {
+	height: 600px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carous {
+	margin: 2% 10%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.parg-nature {
+	margin: 2%;
+	background-color: rgb(221, 219, 219);
+	padding: 3%;
+	border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.parg-nature h2 {
+	letter-spacing: 10px;
+}
+.cards {
+	display: flex;
+	justify-content: space-around;
+	margin: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card:hover {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+		rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.froms {
+	width: 90%;
+	margin: 2% 5%;
+	text-align: start;
+	border: 1px solid gray;
+	padding: 3%;
+	border-radius: 10px;
+}
+
+.froms:hover {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+		rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.footer-part {
+	background-color: rgb(196, 194, 194);
+	height: 100px;
+	padding: 5%;
+	color: #fff;
 }
